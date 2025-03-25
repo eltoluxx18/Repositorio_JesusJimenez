@@ -1,0 +1,10 @@
+Descargamos el DVWA.zip desde el repositorio de github. 
+Descomprimimos en la carpeta de htdocs del Xampp. 
+Buscamos dentro de los archivos descomprimidos uno llamado “config.inc.php” y 
+cambiamos unos valores como lo indica la práctica. 
+Teniendo todo listo, buscamos en el navegador este link: 
+http://localhost:8080/dvwa/setup.php   
+Buscamos la opción que diga create database y nos redirigirá a un inicio de sesión. 
+Colocamos el nivel de seguridad en “low” y guardamos los cambios. 
+Posteriormente realizamos la inyección SQL y colocamos el User ID el siguiente texto: 1' 
+OR '1'='1 y debería de mostrar todos los usuarios existentes. 

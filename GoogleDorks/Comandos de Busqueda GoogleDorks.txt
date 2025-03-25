@@ -1,0 +1,3 @@
+Ejemplos de búsqueda:
+filetype:pdf "manual de seguridad pública"
+site:.gob.mx filetype:pdf "manual de seguridad" intitle:"seguridad pública" filetype:pdf
